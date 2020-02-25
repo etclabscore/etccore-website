@@ -1,3 +1,15 @@
+# 1.0.0 (2020-02-25)
+
+
+### Bug Fixes
+
+* initial commit ([8f9efe9](https://github.com/etclabscore/etccore-website/commit/8f9efe9fa8918fe02763c2350399e9ff610f5e6a))
+* removed cache arguments in circleci config ([1bac018](https://github.com/etclabscore/etccore-website/commit/1bac0187a8a13b567c47d2da36ce0db1b6a80299))
+* small type in circleci commit ([11bf200](https://github.com/etclabscore/etccore-website/commit/11bf2005535f64efb91a0b74fa1f92a8dcde62cb))
+* updated circleci file ([0a214cd](https://github.com/etclabscore/etccore-website/commit/0a214cd9e8a27ee8bcc85305e00cb9660911c45f))
+* updated circleci node -v ([607ff40](https://github.com/etclabscore/etccore-website/commit/607ff40417d8295c5ec4e6f299eee60eabeb0122))
+* updated node version in cricleci file 10x was causing issues ([a8237f1](https://github.com/etclabscore/etccore-website/commit/a8237f105134c9ee3cb4762e573455bf8591c76d))
+
 ## [1.1.4](https://github.com/etclabscore/pristine-typescript-gatsby-react-material-ui/compare/1.1.3...1.1.4) (2020-01-22)
 
 
