@@ -128,7 +128,7 @@ const MyApp: React.FC = () => {
                 <Button size="small" color="primary" href="https://core-geth.org/">
                     Docs
                 </Button>
-                <Button size="small" color="primary" href="https://etclabscore/core-geth/">
+                <Button size="small" color="primary" href="https://github.com/etclabscore/core-geth/">
                     Github
                 </Button>
                 </CardActions>
@@ -185,7 +185,7 @@ const MyApp: React.FC = () => {
                 </CardContent>
                 </CardActionArea>
                 <CardActions>
-                <Button size="small" color="primary" href="https://eserialize.dev/">
+                <Button size="small" color="primary" href="https://eserialize.com/">
                     View
                 </Button>
                 <Button size="small" color="primary" href="https://github.com/etclabscore/eserialize">
@@ -245,7 +245,7 @@ const MyApp: React.FC = () => {
                 </CardContent>
                 </CardActionArea>
                 <CardActions>
-                <Button size="small" color="primary" href="https://ethereum-json-rpc-specification.org/">
+                <Button size="small" color="primary" href="https://playground.open-rpc.org/?schemaUrl=https://raw.githubusercontent.com/etclabscore/ethereum-json-rpc-specification/master/openrpc.json&uiSchema%5BappBar%5D%5Bui:input%5D=false&uiSchema%5BappBar%5D%5Bui:title%5D=Ethereum%20JSON-RPC%20API/">
                     View
                 </Button>
                 <Button size="small" color="primary" href="https://github.com/etclabscore/classic-geth-supervisor.sh">
