@@ -1,16 +1,6 @@
 version: 2
 
 aliases:
-  # -------------------------
-  #      ALIASES: Caches
-  # -------------------------
-  - &restore-deps-cache
-    key: deps-cache-{{ checksum "package.json" }}
-
-  - &save-deps-cache
-    key: deps-cache-{{ checksum "package.json" }}
-    paths:
-      - ~/project/node_modules
 
   # -------------------------
   #  ALIASES: Branch Filters
@@ -32,12 +22,10 @@ jobs:
       - image: circleci/node:13.9.0
     steps:
       - checkout
-      - restore_cache: *restore-deps-cache
       - run: npm install
       - run: npm install codecov
       - run: npm test
       - run: ./node_modules/.bin/codecov
-      - save_cache: *save-deps-cache
 
   build:
     <<: *defaults
@@ -45,10 +33,8 @@ jobs:
       - image: circleci/node:13.9.0
     steps:
       - checkout
-      - restore_cache: *restore-deps-cache
       - run: npm install
       - run: npm run build
-      - save_cache: *save-deps-cache
 
   release:
     <<: *defaults
@@ -70,7 +56,6 @@ jobs:
           command: |
             curl -sSL "https://nodejs.org/dist/v13.9.0/node-v13.9.0-linux-x64.tar.xz" | sudo tar --strip-components=2 -xJ -C /usr/local/bin/ node-v13.9.0-linux-x64/bin/node
             curl https://www.npmjs.com/install.sh | sudo bash
-      - restore_cache: *restore-deps-cache
       - run: sudo apt-get install -y graphviz
       - run: cargo install svgbob_cli
       - run: npm install
@@ -78,7 +63,6 @@ jobs:
       - run: npm install semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/github @semantic-release/npm @semantic-release/commit-analyzer @semantic-release/release-notes-generator @qiwi/semantic-release-gh-pages-plugin
       - run: git checkout .
       - run: ./node_modules/.bin/semantic-release
-      - save_cache: *save-deps-cache
 
 workflows:
   version: 2
