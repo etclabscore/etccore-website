@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/etclabscore/etccore-website/compare/1.0.0...1.0.1) (2020-02-25)
+
+
+### Bug Fixes
+
+* fixed broken links, added partnership section, minor typography changes ([1f1bc56](https://github.com/etclabscore/etccore-website/commit/1f1bc560301a38fe4937755525118fb0fd874a33))
+
 # 1.0.0 (2020-02-25)
 
 
