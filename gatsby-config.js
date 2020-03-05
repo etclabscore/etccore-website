@@ -23,6 +23,18 @@ module.exports = {
       {
         name: 'Github',
         link: 'https://github.com/etclabscore/'
+      },
+      {
+        name: 'Twitter',
+        link: 'https://twitter.com/etc_core'
+      },
+      {
+        name: 'Discord',
+        link: 'https://discord.gg/5KwEAdZ'
+      },
+      {
+        name: 'YouTube',
+        link: 'https://www.youtube.com/channel/UCYpIe3I2bljQsXgVv7wioYA'
       }
     ]
   },

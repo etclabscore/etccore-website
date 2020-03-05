@@ -26,12 +26,6 @@ const MyApp: React.FC = () => {
         <br />
         <Grid container justify="space-between" style={{ marginBottom: "85px" }}>
           <Grid item container direction="column" style={{ width: "320px" }}>
-            <Link
-              component={(props: { children: any }) => (
-                <GatsbyLink to={"#"} style={{ textDecoration: "none", color: grey[500] }} activeStyle={{ color: grey[500] }}>
-                  {props.children}
-                </GatsbyLink>
-              )}>
               <Grid>
                 <Box>
                   <Typography variant="h2" gutterBottom color="primary">Tooling</Typography>
@@ -42,19 +36,8 @@ const MyApp: React.FC = () => {
                   </Typography>
                 </Box>
               </Grid>
-            </Link>
           </Grid>
           <Grid item container direction="column" style={{ width: "320px" }}>
-            <Link
-              component={(props: { children: any }) => (
-                <GatsbyLink
-                  to={"#"}
-                  style={{ textDecoration: "none", color: grey[500] }}
-                  activeStyle={{ color: grey[500] }}
-                >
-                  {props.children}
-                </GatsbyLink>
-              )}>
               <Grid>
                 <Box>
                   <Typography variant="h2" gutterBottom color="primary">Protocol</Typography>
@@ -65,18 +48,8 @@ const MyApp: React.FC = () => {
                   </Typography>
                 </Box>
               </Grid>
-            </Link>
           </Grid>
           <Grid item container direction="column" style={{ width: "320px" }}>
-            <Link
-              component={(props: { children: any }) => (
-                <GatsbyLink to={"#"}
-                  style={{ textDecoration: "none", color: grey[500] }}
-                  activeStyle={{ color: grey[500] }}
-                >
-                  {props.children}
-                </GatsbyLink>
-              )}>
               <Grid>
                 <Box>
                   <Typography variant="h2" gutterBottom color="primary">EVM</Typography>
@@ -87,7 +60,6 @@ const MyApp: React.FC = () => {
                   </Typography>
                 </Box>
               </Grid>
-            </Link>
           </Grid>
         </Grid>
 
