@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/etclabscore/etccore-website/compare/1.0.2...1.0.3) (2020-03-05)
+
+
+### Bug Fixes
+
+* added CNAME ([2830dc7](https://github.com/etclabscore/etccore-website/commit/2830dc7860619fb6b8e49112a62049675ed62d4c))
+
 ## [1.0.2](https://github.com/etclabscore/etccore-website/compare/1.0.1...1.0.2) (2020-03-05)
 
 
