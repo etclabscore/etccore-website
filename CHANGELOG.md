@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/etclabscore/etccore-website/compare/1.0.3...1.1.0) (2020-06-09)
+
+
+### Features
+
+* added about page & minor index page updates ([ff74bb6](https://github.com/etclabscore/etccore-website/commit/ff74bb60fb7240c4016c83590c0906e10930286b))
+
 ## [1.0.3](https://github.com/etclabscore/etccore-website/compare/1.0.2...1.0.3) (2020-03-05)
 
 
