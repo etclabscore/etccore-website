@@ -7,23 +7,45 @@ import { grey } from "@material-ui/core/colors";
 const MyApp: React.FC = () => {
 
   return (
-    <>
       <Grid container alignContent="center" alignItems="center" justify="center" direction="column">
         <img className="logo" alt="logo" src={"https://user-images.githubusercontent.com/10556209/75176062-0f31f880-56f9-11ea-8250-33a50c83dfab.png"} style={{ paddingTop: "10%" }} />
         <Typography gutterBottom style={{ paddingTop: "100px", paddingBottom: "20px" }} variant="inherit">
         ETC Core is a leading Ethereum Classic core development team.
         </Typography>
-        <Link
-          component={(props: { children: any }) => (
-            <GatsbyLink to={"/projects"} style={{ textDecoration: "none", color: grey[500] }} activeStyle={{ color: grey[500] }}>
-              {props.children}
-            </GatsbyLink>
-          )}>
-          <Button variant="contained">projects</Button>
-        </Link>
-        <br />
-        <br />
-        <br />
+        
+
+
+        <Grid container
+          direction="row"
+          justify="center"
+          alignItems="center"
+          spacing={2}>
+          <Grid item>
+            <Button variant="outlined" color="primary" href="/projects">
+            Projects
+            </Button>
+        </Grid>
+          <Grid item>
+            <Button variant="outlined" color="primary" href="https://medium.com/etc-core">
+            Blog
+            </Button>
+          </Grid>
+          <Grid item>
+            <Button variant="outlined" color="primary" href="/about">
+            About
+            </Button>
+          </Grid>
+          <Grid item>
+            <Button variant="outlined" color="primary" href="https://github.com/etclabscore">
+            Github
+            </Button>
+          </Grid>
+        </Grid>
+
+      <br/>
+      <br/>
+
+        
         <Grid container justify="space-between" style={{ marginBottom: "85px" }}>
           <Grid item container direction="column" style={{ width: "320px" }}>
               <Grid>
@@ -37,6 +59,7 @@ const MyApp: React.FC = () => {
                 </Box>
               </Grid>
           </Grid>
+
           <Grid item container direction="column" style={{ width: "320px" }}>
               <Grid>
                 <Box>
@@ -49,6 +72,7 @@ const MyApp: React.FC = () => {
                 </Box>
               </Grid>
           </Grid>
+
           <Grid item container direction="column" style={{ width: "320px" }}>
               <Grid>
                 <Box>
@@ -71,17 +95,14 @@ const MyApp: React.FC = () => {
               </Box>
               <br/>
               <Link href="https://etclabs.org">
-              <img className="logo" alt="logo" src={"https://user-images.githubusercontent.com/10556209/75221953-9f5b5680-5768-11ea-8ebb-d6adde7fcd68.png"} style={{ width: "320px", marginTop: "1rem" }} />
+              <img className="logo" alt="logo" src={"https://etclabs.org/wp-content/uploads/2020/04/Website-Logo379x79.png"} style={{ width: "320px", marginTop: "1rem" }} />
               </Link>
               <Box>
               <Typography variant="caption">
-                The mission of ETC Labs is to build relevant, accessible, and high-quality technology, and to use that technology to create communities of value in a mature and regulated ecosystem. The ultimate goal is to fulfill the promise of blockchain to improve people’s lives. The ETC Labs team of experts also foster partnerships with organizations and institutions in order to address fundamental challenges in developing and deploying this innovative technology.
-              </Typography>
+              The mission of ETC Labs is to build relevant, accessible, and high-quality technology, to create communities of value in a mature and regulated ecosystem. Our goal is to fulfill the promise of blockchain to improve people’s lives using the Ethereum Classic technology, one of the world’s major public blockchains.</Typography>
               </Box>
           </Grid>
       </Grid>
-      <br/>
-    </>
   );
 };
 
