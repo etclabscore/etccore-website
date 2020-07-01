@@ -21,6 +21,10 @@ module.exports = {
       {
         name: 'About',
         link: '/about'
+      },
+      {
+        name: 'Transparency',
+        link: '/transparency'
       }
     ],
     footerLinks: [
