@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/etclabscore/etccore-website/compare/1.1.0...1.2.0) (2020-07-01)
+
+
+### Bug Fixes
+
+* update team members in about page ([d6cc521](https://github.com/etclabscore/etccore-website/commit/d6cc521e3d6b68ddf2de8c44655a29acad78296a))
+
+
+### Features
+
+* added transpareny page and update nav ([0ca5a79](https://github.com/etclabscore/etccore-website/commit/0ca5a7972c5a9eede1625625329b3d94ca45a160))
+
 # [1.1.0](https://github.com/etclabscore/etccore-website/compare/1.0.3...1.1.0) (2020-06-09)
 
 
