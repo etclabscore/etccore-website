@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/etclabscore/etccore-website/compare/1.2.0...1.3.0) (2020-07-09)
+
+
+### Features
+
+* added q1-q2 update page ([e0e8a06](https://github.com/etclabscore/etccore-website/commit/e0e8a0646c577a2aa54faeeabbda19c70a2c234b))
+
 # [1.2.0](https://github.com/etclabscore/etccore-website/compare/1.1.0...1.2.0) (2020-07-01)
 
 
