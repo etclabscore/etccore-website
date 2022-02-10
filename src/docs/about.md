@@ -8,7 +8,5 @@ Ethereum Classic Core (ETC Core) is the leading Ethereum Classic development tea
 
 ## Team
 
-- Afri Schoedon
 - Chris Ziogas
 - Isaac Ardis
-- Luke Williams
